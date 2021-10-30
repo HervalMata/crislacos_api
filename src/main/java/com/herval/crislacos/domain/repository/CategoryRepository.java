@@ -9,5 +9,5 @@ public interface CategoryRepository {
     List<Category> list();
     Category search(Long id);
     Category save(Category category);
-    Category activate(Category category);
+    Category activate(Category category, boolean is_active);
 }
